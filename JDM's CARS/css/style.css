@@ -1,4 +1,7 @@
 
+body{
+  margin:0;
+}
 #HomeButtom{
     position: relative;
     font-size: 1.5em;
@@ -75,7 +78,7 @@
       z-index: 99;
       background-color: rgb(255, 255, 255);
       font-weight: bold;
- 
+      opacity:0.4;
   }
 
    .DivCarsInput1 {
@@ -123,9 +126,7 @@
         transition: .5s;
   }
 
-  .ImgCars{
-      height: 10px;
-  }
+  
 
    .crumbs li {
 
@@ -136,8 +137,6 @@
        font-size: 1em;
        font-weight: 400;
        letter-spacing: 0.2em;
-       margin: 0;
-       padding: 1em 1em 0.1em 1em;
        text-decoration: none;
        text-transform: uppercase;
         
@@ -179,3 +178,6 @@
     width:30vw;
   }
   
+  .ImgCars{
+      max-width:100vw;
+  }
