@@ -160,22 +160,3 @@
            transform: translateY(0);
        }
    }
-
-
-   .center{
-    margin: auto;
-  }
-  
-  #paintyPaint {
-    position:relative;
-    width: 30vw;
-    height:20vw;
-    border:0.01em solid black;
-    /* display: flex;
-    justify-content: center;
-    align-items: center ; */
-  }
-  #paintyPaint img{
-    width:30vw;
-  }
-  
